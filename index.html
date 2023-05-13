@@ -11,11 +11,198 @@
       href="https://unpkg.com/normalize.css@8.0.1/normalize.css"
     />
     <link href="style.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap"
+      rel="stylesheet"
+    />
+
     <title>Shopping layout</title>
   </head>
   <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
+    <main>
+      <div class="asics">
+        <div class="the-picture">
+          <figure>
+            <img
+              src="https://camo.githubusercontent.com/386948ec10cc7166718d9ec43783e3f176fe8043abad15775d23eade78196b5b/68747470733a2f2f696d616765732e756e73706c6173682e636f6d2f70686f746f2d313536303037323831302d3163666662303966616630663f697869643d4d6e77784d6a4133664442384d48787761473930627931775957646c664878386647567566444238664878382669786c69623d72622d312e322e31266175746f3d666f726d6174266669743d63726f7026773d3134373026713d3830"
+              alt="An Asics shoe"
+            />
+            <div class="color-transition"></div>
+          </figure>
+          <aside class="top-aside"><p>Free Shiping!</p></aside>
+          <aside class="bottom-aside"><p>Photo by: Maksim Larin</p></aside>
+        </div>
+        <div class="description">
+          <h1>Asics</h1>
+          <p>
+            Suede farbric pointed toe stylish cut front low heel sharp on-trend
+            toe point raised heel drop sides unique silhouette. Bow detail
+            metallic eyelets leather lining luxurious finish classic courts
+            formal slingback square...
+          </p>
+        </div>
+        <div class="choosing">
+          <form>
+            <input type="text" value="$65 USD" />
+            <div class="the-dropdowns">
+              <div class="dropdown-one">
+                <label for="size-asics">Size:</label>
+                <select name="shoesize" id="size-asics">
+                  <option value="4">4</option>
+                  <option value="4.5">4.5</option>
+                  <option value="5">5</option>
+                  <option value="5.5">5.5</option>
+                  <option value="6">6</option>
+                  <option value="6.5">6.5</option>
+                  <option value="7">7</option>
+                  <option value="7.5">7.5</option>
+                  <option value="8">8</option>
+                  <option value="8.5">8.5</option>
+                </select>
+              </div>
+              <div class="dropdown-two">
+                <label for="quantity-asics">Quantity:</label>
+                <select name="quantity-of-shoes" id="quantity-asics">
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                </select>
+              </div>
+            </div>
+            <div class="colors">
+              <p>Color:</p>
+              <div class="color blue"></div>
+              <div class="color red"></div>
+              <div class="color black"></div>
+            </div>
+            <input type="submit" value="Add to Cart" />
+          </form>
+        </div>
+      </div>
+      <div class="adidas">
+        <div class="the-picture">
+          <figure>
+            <img
+              src="https://camo.githubusercontent.com/3c412b173fef73e3c44a5aad8330234d4809c03cbc2a0dde18f260707616ed00/68747470733a2f2f696d616765732e756e73706c6173682e636f6d2f666c61676765642f70686f746f2d313535363633373634302d3263383064333230316265383f69786c69623d72622d312e322e3126697869643d4d6e77784d6a4133664442384d48787761473930627931775957646c66487838664756756644423866487838266175746f3d666f726d6174266669743d63726f7026773d3134373026713d3830"
+              alt="An Adidas shoe"
+            />
+            <div class="color-transition"></div>
+          </figure>
+          <aside class="bottom-aside"><p>Photo by: Daniel Storek</p></aside>
+        </div>
+        <div class="description">
+          <h1>Adidas</h1>
+          <p>
+            Effortless comfortable full leather lining eye-catching unique
+            detail to the toe low 'cut-away' sides clean and sleek. Polished
+            finish elegant court shoe work duty stretchy slingback strap mid
+            kitten heel this ladylike...
+          </p>
+        </div>
+        <div class="choosing">
+          <form>
+            <input type="text" value="$30 USD" />
+            <div class="the-dropdowns">
+              <div class="dropdown-one">
+                <label for="size-adidas">Size:</label>
+                <select name="shoesize" id="size-adidas">
+                  <option value="4">4</option>
+                  <option value="4.5">4.5</option>
+                  <option value="5">5</option>
+                  <option value="5.5">5.5</option>
+                  <option value="6">6</option>
+                  <option value="6.5">6.5</option>
+                  <option value="7">7</option>
+                  <option value="7.5">7.5</option>
+                  <option value="8">8</option>
+                  <option value="8.5">8.5</option>
+                </select>
+              </div>
+              <div class="dropdown-two">
+                <label for="quantity-adidas">Quantity:</label>
+                <select name="quantity-of-shoes" id="quantity-adidas">
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                </select>
+              </div>
+            </div>
+            <div class="colors">
+              <p>Color:</p>
+              <div class="color green-black"></div>
+              <div class="color blue-black"></div>
+              <div class="color pink-black"></div>
+            </div>
+            <input type="submit" value="Add to Cart" />
+          </form>
+        </div>
+      </div>
+      <div class="new-balance">
+        <div class="the-picture">
+          <figure>
+            <img
+              src="https://camo.githubusercontent.com/418e0658bb2b6ba856b9fdaa1b668d92516bc8dfa3ee253e57ab44cb9412b019/68747470733a2f2f696d616765732e756e73706c6173682e636f6d2f70686f746f2d313533393138353434313735352d3736393437336132333537303f697869643d4d6e77784d6a4133664442384d48787761473930627931775957646c664878386647567566444238664878382669786c69623d72622d312e322e31266175746f3d666f726d6174266669743d63726f7026773d3134373126713d3830"
+              alt="A New Balance shoe"
+            />
+            <div class="color-transition"></div>
+          </figure>
+          <aside class="top-aside"><p>Just one left!</p></aside>
+          <aside class="bottom-aside"><p>Photo by: felipepelaquim</p></aside>
+        </div>
+        <div class="description">
+          <h1>New Balance</h1>
+          <p>
+            SSuede fabric pointed toe stylish cut front low heel sharp on-trend
+            toe point raised heel drop sides unique silhouette. Bow detail
+            metallic eyelets leather lining luxurious finish classic courts
+            formal slingback square...
+          </p>
+        </div>
+        <div class="choosing">
+          <form>
+            <input type="text" value="$45 USD" />
+            <div class="the-dropdowns">
+              <div class="dropdown-one">
+                <label for="size-new-balance">Size:</label>
+                <select name="shoesize" id="size-new-balance">
+                  <option value="4">4</option>
+                  <option value="4.5">4.5</option>
+                  <option value="5">5</option>
+                  <option value="5.5">5.5</option>
+                  <option value="6">6</option>
+                  <option value="6.5">6.5</option>
+                  <option value="7">7</option>
+                  <option value="7.5">7.5</option>
+                  <option value="8">8</option>
+                  <option value="8.5">8.5</option>
+                </select>
+              </div>
+              <div class="dropdown-two">
+                <label for="quantity-new-balance">Quantity:</label>
+                <select name="quantity-of-shoes" id="quantity-new-balance">
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                </select>
+              </div>
+            </div>
+            <div class="colors">
+              <p>Color:</p>
+              <div class="color red-white"></div>
+              <div class="color black-white"></div>
+            </div>
+            <input type="submit" value="Add to Cart" />
+          </form>
+        </div>
+      </div>
+    </main>
   </body>
 </html>
